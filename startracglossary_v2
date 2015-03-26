@@ -4,6 +4,13 @@ entext = open ("en.txt")
 finallist = []
 
 def wordminer (textfile):
+    """
+    I will look after the string, in the file, what is after the :
+    example:
+    textfile: "Mickey : Mouse"
+    returns: "Mouse"
+    Clears all whitespaces, and \ and , but not all spec chars
+    """
     words = []
     for line in textfile:
         line = line.rstrip()
@@ -17,6 +24,17 @@ def wordminer (textfile):
     return words
 
 def export (glossary_one, glossary_two):
+    """
+    Makes one text file from two text files.
+    It chains them line by line.
+    example:
+    A.txt: return
+    B.txt: the ravens
+    A+B = glossary.txt:
+    return
+    the ravens
+
+    """
     myfile = open ("glossary.txt","w")
     two_language = []
     for i in range (0,len(glossary_one)):
@@ -26,7 +44,9 @@ def export (glossary_one, glossary_two):
         myfile.write(two_language[i] + "\n")
     myfile.close()
     return
-
+"""
+This is the main program here
+"""
 enwords = wordminer(entext)
 dewords = wordminer(detext)
 export(dewords, enwords)
