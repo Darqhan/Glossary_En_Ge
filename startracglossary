@@ -1,0 +1,28 @@
+
+detext = open ("de.txt")
+entext = open ("en.txt")
+finallist = []
+
+def wordminer (textfile):
+    words = []
+    for line in textfile:
+        line = line.rstrip()
+        line = line.lstrip()
+        line = line.replace('\"','')
+        line = line.replace(',','')
+        line = line.lower()
+        startline = line.find(':')
+        if line != "":
+            words.append(line[startline+1:])
+    return words
+
+def export (glossary_one, glossary_two):
+    myfile = open ("glossary.txt","w")
+    for i in range (0,len(glossary_one)):
+        myfile.write("\n"+glossary_one[i]+": "+"\n"+ glossary_two[i]+"\n")
+    myfile.close()
+    return
+
+enwords = wordminer(entext)
+dewords = wordminer(detext)
+export(dewords, enwords)
