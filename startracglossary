@@ -1,4 +1,9 @@
-
+'''
+Problem: 
+Have an en.txt, lines like variable_name \\,,:language
+Have a ge.txt, lines like variable_name \\,,: sprache
+output in glossary.txt language=sprache
+'''
 detext = open ("de.txt")
 entext = open ("en.txt")
 finallist = []
