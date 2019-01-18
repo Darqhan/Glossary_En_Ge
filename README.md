@@ -11,14 +11,16 @@ os.getcwd()
 
 ** Example: **  
 
-en.txt: 
+**en.txt:** 
 
 dragon 
+
 buda
+
 plato 
 
 
-de.txt: 
+**de.txt:** 
 
 fly
 
@@ -27,7 +29,7 @@ pest
 aristotle
 
 
-result.txt: 
+**result.txt: **
 
 dragon fly 
 
