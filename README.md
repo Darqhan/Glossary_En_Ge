@@ -9,19 +9,31 @@ If you forgot the current working directory (in python):
 import os
 os.getcwd()
 
-Example: 
+** Example: **  
 
 en.txt: 
+
 dragon 
+
 buda
+
 plato 
 
+
 de.txt: 
+
 fly
+
 pest
+
 aristotle
 
+
 result.txt: 
+
 dragon fly 
+
 buda pest
+
 plato aristotle
+
