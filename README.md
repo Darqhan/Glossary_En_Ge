@@ -29,7 +29,7 @@ pest
 aristotle
 
 
-**result.txt: **
+** result.txt: **
 
 dragon fly 
 
