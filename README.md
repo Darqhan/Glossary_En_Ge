@@ -31,15 +31,15 @@ aristotle
 
 **glossary.txt:**
 
-dragon 
-
 fly 
 
-buda 
+dragon 
 
 pest
 
-plato 
+buda
 
 aristotle
+
+plato
 
