@@ -29,11 +29,17 @@ pest
 aristotle
 
 
-**result.txt:**
+**glossary.txt:**
 
-dragon fly 
+dragon 
 
-buda pest
+fly 
 
-plato aristotle
+buda 
+
+pest
+
+plato 
+
+aristotle
 
