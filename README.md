@@ -9,7 +9,7 @@ If you forgot the current working directory (in python):
 import os
 os.getcwd()
 
-** Example: **  
+**Example:**  
 
 **en.txt:** 
 
@@ -29,7 +29,7 @@ pest
 aristotle
 
 
-** result.txt: **
+**result.txt:**
 
 dragon fly 
 
