@@ -14,9 +14,7 @@ os.getcwd()
 en.txt: 
 
 dragon 
-
 buda
-
 plato 
 
 
